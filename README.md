@@ -46,16 +46,10 @@ Transit Buddy combines a Discord interface, a MongoDB-backed data layer, and a L
 
 ## System Architecture
 
-```mermaid
-flowchart LR
-    A[Discord Users] --> B[discord.py]
-    B --> C[LangChain Agent]
-    C --> D[Skills / Tools]
-    C --> E[MongoDB]
-    E --> C
-    C --> B
-    B --> A
-```
+![Transit Buddy system architecture](docs/images/architecture.png)
+
+A more detailed, module-level view (Discord bot, agent, database, deployment pipeline) is in
+[docs/images/architecture-detailed.png](docs/images/architecture-detailed.png).
 
 ## Folder Structure
 

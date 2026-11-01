@@ -1,5 +1,9 @@
 # Architecture Overview
 
+![Transit Buddy system architecture](images/architecture.png)
+
+Module-level detail: [architecture-detailed.png](images/architecture-detailed.png).
+
 Transit Buddy is designed as a small, modular system with three independently owned components that come together through shared contracts.
 
 ## Core Design
